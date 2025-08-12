@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    
+
+}
+.hero {
+ position: relative;
+  height: 100%;
+  background-image: url("293112.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+   
+    
+}
+   
+#navbar{
+    z-index: 10;
+   height: 10%;
+   width: 100%;
+   padding: 10px;
+    top:0;
+   align-items: center;
+    display: flex;
+    font-style:normal;
+    font-weight:bold;
+    font-size: large ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #101034;
+    border: 1px solid rgb(234, 234, 234);
+  position:fixed;
+   background-color: whitesmoke;
+}
+.navbar{
+    margin-left:  40px;
+   
+}
+#contact{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+#banner{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    width:100%;
+    background-color: rgb(38, 38, 129);
+    color: white;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+#report{margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+
+}
+#report:hover{
+    text-decoration: none;
+}
+#page1{ 
+  
+    display: flex;
+   margin: 100px;
+    
+}
+#paragraph{
+    margin-top: 100px;
+    margin-left: 30px;
+    color: #101034;
+       
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+    font-size: 55px;
+    line-height: 1.6;
+  
+   display: flex;
+   word-wrap: break-word;
+    width: 600px;
+    height: 150px;
+  
+}
+#video{
+    position:static;
+    display: flex;
+    width:80% ;
+    max-width: 900px;
+   margin-top: 160px;
+   margin-left: 80px;
+}
+  
+#button{
+    display: flex;
+}
+#heading{
+    font-family: 'Courier New', Courier, monospace;
+  margin-top: -30px;
+    justify-items: center;
+  
+   
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(5, 1, 72);
+}
+#card{
+    display: flex; align-items: center;
+    justify-content: center;
+
+}
+.card{
+    margin-left: 40px;
+    height: 420px;
+    width:280px ;
+    background-color: white;
+    overflow: hidden;
+    color: rgb(0, 33, 117);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    transition: transform 0.3 ease;
+    
+    font-weight: lighter;
+    font-size:medium;
+    border: 1px solid wheat;
+   
+    border-radius: 10%;
+}
+.card:hover{
+    transform: scale(1.2);
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+   
+}
+.para{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: black;
+    font-weight: 400;
+}
+.learn{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.learn:hover{
+    text-decoration:none ;
+}
